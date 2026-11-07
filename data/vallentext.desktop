@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=VallenText
+GenericName=Editor Teks
+Comment=Editor teks ringan ala Pluma
+Exec=vallentext %F
+Icon=vallentext
+Terminal=false
+StartupNotify=true
+StartupWMClass=vallentext
+Categories=Utility;TextEditor;GTK;
+Keywords=teks;editor;text;kode;code;
+MimeType=text/plain;text/markdown;text/x-markdown;text/x-python;text/x-python3;application/x-python;text/javascript;application/javascript;application/x-javascript;text/x-javascript;application/typescript;text/x-typescript;text/rust;text/x-rust;application/json;application/x-yaml;text/x-yaml;application/toml;application/xml;text/xml;text/html;text/css;text/x-csrc;text/x-chdr;text/x-c++src;text/x-c++hdr;text/x-java;text/x-go;text/x-makefile;text/x-cmake;text/x-sql;text/x-log;text/csv;text/x-csv;text/x-diff;text/x-patch;text/x-tex;text/x-ini;text/x-shellscript;application/x-shellscript;application/x-desktop;application/x-php;text/x-php;application/x-ruby;text/x-lua;text/x-kotlin;text/x-swift;

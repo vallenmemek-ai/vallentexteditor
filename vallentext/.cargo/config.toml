@@ -1,0 +1,3 @@
+# Link lebih ramping: library GTK yang tidak terpakai tidak ikut dimuat saat start.
+[build]
+rustflags = ["-C", "link-arg=-Wl,--as-needed", "-C", "link-arg=-Wl,-O1"]

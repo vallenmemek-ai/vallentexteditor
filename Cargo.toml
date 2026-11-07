@@ -1,0 +1,20 @@
+[package]
+name = "vallentext"
+version = "0.2.0"
+edition = "2021"
+description = "Editor teks ringan ala Pluma, ditulis dengan Rust + GTK3"
+license = "MIT"
+
+[dependencies]
+gtk = { version = "0.15", package = "gtk" }
+gdk = { version = "0.15", package = "gdk" }
+gio = "0.15"
+glib = "0.15"
+sourceview4 = "0.3"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
